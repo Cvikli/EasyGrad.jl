@@ -3,7 +3,7 @@
 # 2. reverse broadcast simplest
 # 3. @.reverse CODE 
 using RelevanceStacktrace
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 using EasyGrad: @easygrad
 using EasyGrad
 using FiniteDifferences

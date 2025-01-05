@@ -2,7 +2,7 @@
 using Revise
 using Test
 using RelevanceStacktrace
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 using EasyGrad
 using FiniteDifferences
 

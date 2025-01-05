@@ -1,7 +1,7 @@
 using Revise
 using Test
 using LoopVectorization
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 
 using FiniteDifferences
 

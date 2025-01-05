@@ -2,7 +2,7 @@ module FuncVariations
 using Revise
 using RelevanceStacktrace
 using DataStructures
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 using CodeTracking
 # includet("../src/EasyGrad.jl")
 using EasyGrad: @easygrad, @code_expr_easy, process_body

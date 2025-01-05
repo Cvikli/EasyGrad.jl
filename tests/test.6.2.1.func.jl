@@ -2,7 +2,7 @@
 using Revise
 using RelevanceStacktrace
 using DataStructures
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 using CodeTracking
 # includet("../src/EasyGrad.jl")
 using EasyGrad
@@ -80,7 +80,7 @@ end debug="../tests/test_cases_functions/generated_test.6.2.1.fn.jl"
 
 # end
 # #%%
-# using Boilerplate: @typeof
+# using BoilerplateCvikli: @typeof
 # tmp = gensym("tmp")
 # @typeof tmp
 # @show tmp

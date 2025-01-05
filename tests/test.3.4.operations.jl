@@ -1,7 +1,7 @@
 using Revise
 using Test
 using DataStructures
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 using BenchmarkTools
 using Zygote
 BenchmarkTools.DEFAULT_PARAMETERS.seconds = 1.0

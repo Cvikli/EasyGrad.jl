@@ -6,7 +6,7 @@ using Revise
 using RelevanceStacktrace
 using DataStructures
 using LoopVectorization
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 using EasyGrad
 using FiniteDifferences
 

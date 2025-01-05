@@ -2,7 +2,7 @@
 using Revise
 using RelevanceStacktrace
 using DataStructures
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 # includet("../src/EasyGrad.jl")
 using EasyGrad
 using FiniteDifferences
@@ -67,7 +67,7 @@ end
 
 # end
 # #%%
-# using Boilerplate: @typeof
+# using BoilerplateCvikli: @typeof
 # tmp = gensym("tmp")
 # @typeof tmp
 # @show tmp

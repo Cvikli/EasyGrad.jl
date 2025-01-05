@@ -1,7 +1,7 @@
 using Revise
 using RelevanceStacktrace
 using DataStructures
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 using BenchmarkTools
 using LoopVectorization
 BenchmarkTools.DEFAULT_PARAMETERS.seconds = 1.0

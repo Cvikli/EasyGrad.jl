@@ -1,4 +1,4 @@
-using Boilerplate: @typeof
+using BoilerplateCvikli: @typeof
 
 # dump(Meta.parse("fn(x,y)"))
 # Meta.show_sexpr(Meta.parse("fn(x,y)"))

@@ -3,7 +3,7 @@ using RelevanceStacktrace
 using DataStructures
 using FiniteDifferences
 using Test
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 # includet("../src/EasyGrad.jl")
 using EasyGrad
 

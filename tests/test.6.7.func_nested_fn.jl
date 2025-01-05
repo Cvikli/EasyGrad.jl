@@ -1,7 +1,7 @@
 using Revise
 using RelevanceStacktrace
 using DataStructures
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 using CodeTracking
 # includet("../src/EasyGrad.jl")
 using EasyGrad
@@ -91,7 +91,7 @@ pb_func_test(a)[2](1f0)
 
 # end
 # #%%
-# using Boilerplate: @typeof
+# using BoilerplateCvikli: @typeof
 # tmp = gensym("tmp")
 # @typeof tmp
 # @show tmp

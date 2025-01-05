@@ -1,6 +1,6 @@
 using Revise
 using FiniteDifferences
-using Boilerplate: @typeof, @sizes
+using BoilerplateCvikli: @typeof, @sizes
 using EasyGrad
 
 @easygrad for_test(i1, i2) = begin

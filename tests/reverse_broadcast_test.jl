@@ -1,4 +1,4 @@
-using Boilerplate: @sizes
+using BoilerplateCvikli: @sizes
 
 # [2,3,1] 						.* 			[2,1,3] 			= 	[2,3,3]
 # [2,3,2,1] 					.* 			[2,1,2,3] 		= 	[2,3,2,3]
@@ -130,7 +130,7 @@ b=randn(2,2,3)
 c=randn(2,3,3,2,1)
 b .+= a
 #%%
-using Boilerplate: @sizes, @typeof
+using BoilerplateCvikli: @sizes, @typeof
 w=ones(Float32,300,30,40)
 q=ones(Float32,300,1,40)
 p=[1.]
